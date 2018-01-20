@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+  <script type="text/javascript" src="meme_generator_2.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      console.log("DOM fully loaded and parsed");
+    });
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <h1>Welcome to the Meme Generator</h1>
+    <h3>1.Find an image you would like to use <br>2.Input top text, url and bottom text<br>3.Click on image to remove</h3>
+  </section>
+  <form class="all-boxes">
+    Top Text Here:<br> <input class="text-box" type="text" id="top" /><br> Image URL Here:<br> <input class="text-box" type="text" id="url" /><br> Bottom Text Here:<br> <input class="text-box" type="text" id="bottom" /><br>
+    <input class="sub-button" type="button" value="submit" onclick="createMeme();">
+  </form>
+  <div id="whole-page">
+
+  </div>
+
+</body>
+
+</html>

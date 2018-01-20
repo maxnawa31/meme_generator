@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lato";
+}
+
+h1 {
+  font-size: 35px;
+}
+
+#clear-text {
+  width: 15%;
+}
+
+#whole-page {
+  display: inline;
+  text-align: center;
+}
+
+.images {
+  position: relative;
+  display: inline;
+  width: 400px;
+  height: 400px;
+}
+
+.hover-image {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.65;
+  position: relative;
+  display: inline;
+  width: 400px;
+  height: 400px;
+  color: #FFF;
+}
+
+.style-top {
+  position: relative;
+  bottom: 300px;
+  right: 322px;
+  color: orange;
+  font-family: "Impact";
+  font-size: 30px;
+  display: inline;
+}
+
+.style-bottom {
+  position: relative;
+  bottom: 78px;
+  right: 416px;
+  color: orange;
+  font-family: "Impact";
+  font-size: 30px;
+  display: inline
+}
+
+.text-box {
+  width: 500px;
+  height: 30px;
+  font-size: 18px;
+  font-family: "Lato";
+  border: 1px solid black;
+  background-color: white;
+}
+
+.all-boxes {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+.sub-button {
+  width: 15%;
+}
